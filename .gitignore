@@ -1,0 +1,47 @@
+# Data and images
+final_512/
+data/final_512/
+*.jpg
+*.png
+*.dcm
+
+# Checkpoints
+checkpoints/
+*.tar
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# CAM outputs (large numpy files)
+cams_*/
+test_04_*/
+test_05_*/
+test_06_*/
+crf_*/
+cam_compare/
+mask_viz*/
+viz_*/
+
+# Logs
+*.log
+pipeline.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env/
+venv/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# HuggingFace cache
+.assets/
+huggingface/
